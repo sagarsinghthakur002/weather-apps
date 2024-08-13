@@ -10,14 +10,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: rgb(25, 134, 212);
+    background-image:url(images/bg1.jpg); 
+    background-position: center;
+    background-size:cover;
 }
 
 .card {
-    background-image:url(images/pic.jpeg);
     background-size: cover;
-    background: linear-gradient(130deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /* background: linear-gradient(130deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
     padding: 50px;
+    backdrop-filter: blur(10px);
     border-radius:20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
     display: flex;
